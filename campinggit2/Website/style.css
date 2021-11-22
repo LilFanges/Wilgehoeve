@@ -10,6 +10,9 @@ a {
 .titleh1 {
     font-size: 40px;
 }
+#linklink{
+    color: darkblue;
+}
 img {
     margin: 40px 0px 0px 0px;
     border: 7px solid white;
@@ -38,13 +41,5 @@ li  {
       display: block;
       padding: 5px;
 }
-<<<<<<< HEAD
-
-#plaatje {
-	height: 100px;
-	width: 100px;
 }
 
-=======
-  }
->>>>>>> 30822f3bd126732be75c9e5894b001ac09deb9a9
