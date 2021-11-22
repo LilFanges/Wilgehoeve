@@ -36,4 +36,9 @@ li  {
       display: block;
       padding: 5px;
 }
+
+#plaatje {
+	height: 200px;
+	width: 350px;
 }
+
