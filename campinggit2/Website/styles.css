@@ -2,9 +2,12 @@ body {
   background-color: white; 
 }
 
-
-
-
+header {
+    text-align: center;
+    background: url('');
+    background-size: cover;
+    color: red;
+}
 
 /* body { */
   /* animation: colorchange 10s infinite;  */
