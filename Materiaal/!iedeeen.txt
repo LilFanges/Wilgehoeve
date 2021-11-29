@@ -1,0 +1,4 @@
+- foto slider in voorpagina
+- plaatje als link
+- home button word home button plaatje link
+- 
