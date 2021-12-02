@@ -3,11 +3,19 @@
 	<title>Activiteiten</title>
 	<link href="style.css" rel="stylesheet">
 </head>
+<script>
+	function toggleTheme(){
+	  var theme = document.getElementsByTagName('link')[0];
+	  if (theme.getAttribute('href') == 'style.css'){
+		theme.setAttribute('href', 'style2.css');
+	  } else{
+		theme.setAttribute('href', 'style.css');
+	  }
+	}
+	</script>
 <body>
 	<header>
-		<div class="titleh1">
-			<h1>Activiteiten</h1>
-		</div>
+			<h1 id="titleh1">Activiteiten</h1>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="activiteitenpagina.html">Activiteiten</a></li>
@@ -15,6 +23,7 @@
 			<li><a href="decamping.html">Camping</a></li>
 			<li><a href="geschiedenis.html">Geschiedenis</a></li>
 			<li><a href="spooktocht.html">Spooktocht</a></li>
+			<li><button onclick="toggleTheme()">switch</button></li>
 		</ul>
 	</header>
 	<article>
