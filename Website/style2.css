@@ -5,6 +5,9 @@ header {
     background-size: cover;
     color: blue;
 }
+.contact{
+    float: left;
+}
 body{
     background-image: url("Plaatjes/blad.png");
     background-position: left;
