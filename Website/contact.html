@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<title>Contact</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<script>
+	function toggleTheme(){
+	  var theme = document.getElementsByTagName('link')[0];
+	  if (theme.getAttribute('href') == 'style.css'){
+		theme.setAttribute('href', 'style2.css');
+	  } else{
+		theme.setAttribute('href', 'style.css');
+	  }
+	}
+	</script>
+<body>
+	<header>
+			<h1 id="titleh1">Contact</h1>
+		<ul>
+			<li><a href="contact.html" class="contact">Contact</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="activiteitenpagina.html">Activiteiten</a></li>
+			<li><a href="aliens.html">Aliens</a></li>
+			<li><a href="decamping.html">Camping</a></li>
+			<li><a href="geschiedenis.html">Geschiedenis</a></li>
+			<li><a href="spooktocht.html">Spooktocht</a></li>
+			<li><button onclick="toggleTheme()">switch</button></li>
+		</ul>
+	</header>
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+    <div class="popup" onclick="myFunction()">Click me!
+        <span class="popuptext" id="myPopup">Popup text...</span>
+      </div>
+</body>
+	</html>
