@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+<<<<<<< HEAD
 	<title>Contact</title>
 	<link href="style.css" rel="stylesheet">
 </head>
@@ -39,3 +40,56 @@
       </div>
 </body>
 	</html>
+=======
+  <title>Contact Ons</title>
+  <link id="pagastyle" rel="stylesheet" href="style.css">
+</head>
+<script>
+  function toggleTheme(){
+    var theme = document.getElementsByTagName('link')[0];
+    if (theme.getAttribute('href') == 'style.css'){
+      theme.setAttribute('href', 'style2.css');
+    } else{
+      theme.setAttribute('href', 'style.css');
+    }
+  }
+  function Alert(){
+      alert("Bel naar 0612345678");
+  }
+  </script>
+<body>
+  <header>
+    <h1 id="titleh1">Contact</h1>
+    <ul>
+      <li><a href="contact.html" class="contact">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="activiteitenpagina.html">Activiteiten</a></li>
+      <li><a href="aliens.html">Aliens</a></li>
+      <li><a href="decamping.html">Camping</a></li>
+	    <li><a href="geschiedenis.html">Geschiedenis</a></li>
+	    <li><a href="spooktocht.html">Spooktocht</a></li>
+      <li><button onclick="toggleTheme()">switch</button></li>
+    </ul>
+  </header>
+
+<article>
+  <h2>Vul hier uw gegevens in!</h2>
+    <label>Naam:</label><br>
+    <input type="text" id="naam" name="naam" placeholder="Uw naam"><br>
+
+    <label>Aantal bezoekers:</label><br>
+    <input type="text" id="aantal" placeholder="..."><br>
+
+    <label>Datum aankomst:</label><br>
+    <input type="date" id="aankomst" placeholder="..."><br>
+
+    <label>Datum vertrek:</label><br>
+    <input type="date" id="vertrek" placeholder="..."><br><br>
+
+    <button onclick="Alert()">Verstuur</button>
+  <p></p>
+</article>
+
+</body>
+</html>
+>>>>>>> 455e892f41b311518673b3c00063db575ab45ea4
