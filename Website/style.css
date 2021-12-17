@@ -16,7 +16,7 @@ header{
     color: black;
 }
 
-#wrap {
+.wrap {
 position: fixed;
 top: 0;
 left: 0;
@@ -26,7 +26,7 @@ background: rgba(255,255,255,.6);
 z-index: 1001;
 }
 
-#pling {
+.pling {
     width: 555px;
     height: 375px;
     background: #FFFFFF;

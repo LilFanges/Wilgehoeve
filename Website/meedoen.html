@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>Voorpagina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function toggleTheme(){
+    var theme = document.getElementsByTagName('link')[0];
+    if (theme.getAttribute('href') == 'style.css'){
+      theme.setAttribute('href', 'style2.css');
+    } else{
+      theme.setAttribute('href', 'style.css');
+    }
+  }
+  </script>
+<body>
+  <header>
+    <h1 id="titleh1">JA IK WIL MEEDOEN</h1>
+    <ul>
+      <li><a href="contact.html" class="contact">Contact</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="activiteitenpagina.html">Activiteiten</a></li>
+      <li><a href="aliens.html">Aliens</a></li>
+      <li><a href="decamping.html">Camping</a></li>
+        <li><a href="geschiedenis.html">Geschiedenis</a></li>
+        <li><a href="spooktocht.html">Spooktocht</a></li>
+      <li><button onclick="toggleTheme()">switch</button></li>
+    </ul>
+  </header>
+
+<article>
+  <h2>Verblijf in de camping</h2>
+  <p>Hebben jij en je gezin in een spookachtig verblijf op een camping met griezelactiviteiten voor het hele gezin? Of wil je UFO's spotten met je vrienden? Kom naar spookcamping de Wilgenhoeve. Wij hebben een kleine camping met 50 staanplaatsen in het midden van Drenthe. Door de geschiedenis van het landgoed en de stille omgeving is dit de plaats om spoken, geesten en aliens te spotten.
+        Het hele jaar door heeft ons activiteitenteam plannen om onze bezoekers een leuke en spannende tijd te geven op ons mooie landgoed.
+</p>
+</article>
+</body>
+</html
